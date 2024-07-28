@@ -1,0 +1,10 @@
+name: testItems
+version: '${project.version}'
+main: com.rainchat.testitems.testItems
+api-version: '1.16'
+softdepend: [ WorldGuard ]
+commands:
+  igive:
+    permission: "itemtest.give"
+    description: "Выдать игроку магические предметы"
+    usage: "/igive"
